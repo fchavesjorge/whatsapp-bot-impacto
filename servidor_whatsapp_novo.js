@@ -181,6 +181,5 @@ app.get('/', (req, res) => {
 // Iniciar servidor
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
-    console.log('🚀 Servidor rodando em http://localhost:' + PORT);
-    console.log('📞 Webhook disponível em: http://localhost:' + PORT + '/send-message');
+    console.log('🚀 Servidor rodando na porta: ' + PORT);
 });
